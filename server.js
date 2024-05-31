@@ -21,7 +21,7 @@ const server = http.createServer(app);
 // Cors Options
 // This is modificable to your needs
 const corsOptions = {
-    origin: origins,
+    origin: process.env.CORS_ORIGIN,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Bearer'],
     optionsSuccessStatus: 200,
