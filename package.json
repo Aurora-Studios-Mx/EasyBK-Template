@@ -1,0 +1,19 @@
+{
+  "name": "easybk-template",
+  "version": "0.5.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "nodemon ."
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "helmet": "^7.1.0",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
