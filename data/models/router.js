@@ -8,7 +8,8 @@ const main_router = require('../api/routers/main.router')
 const router = express.Router();
 
 //Routes
-//Add new routers here
+//The bottom line of text is used to add more components with the CLI, not delete.
+/*CLI-ROUTER-INSERT-POINT*/
 router.use('/', main_router);
 
 //Export
