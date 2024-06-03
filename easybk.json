@@ -1,0 +1,5 @@
+{
+    "environment": ".env",
+    "script": "server.js",
+    "model": "./data/models/router.js"
+}
