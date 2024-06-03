@@ -1,8 +1,10 @@
 //Require Router package
 const express = require('express');
 
-//Add new routers here
-const main_router = require('../api/routers/main.router')
+//Requires
+//The bottom line of text is used to add more components with the CLI, not delete.
+/*CLI-REQUIRES-INSERT-POINT*/
+const main_router = require('../api/routers/main.routes')
 
 //Invoke router method
 const router = express.Router();
